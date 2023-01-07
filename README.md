@@ -6,17 +6,21 @@ V0(MVP) -->
 Functional Requirement : 
 1. Customer onboarding -- 
     (a). Customer come do basic onboarding(Signup and login).
-    (b). Customer tells us his interests like content and some targets, we will show social media based on his data(which he can authenticate and permit us to do something over those platform) 
-2. Customer Content Creation
-    (a). Provide a proper dashboard where he/she can create content or upload content(Need good UI/UX thing).
+            (1) . DB schema
+    (b). Customer tells us his interests like content and some targets, we will show social media based on his data(which he can authenticate and permit us to do something over those platform).
+2.Dashboard -->  
+2. Customer Content Creation.
+    (a). Show them a list of templates based on given interests.
+    (a). Provide a proper editor where he/she can create content or upload content(Need good UI/UX thing).
     (b). A good editor experience with different tools/subtools needed for it.
-    (c). Preview over different device(Mob,Web) and over different platforms(Linkedin,Facebook,Instagram) should be rich experience.
+    (c). Preview over different device(Mob,Web) and over different platforms(Linkedin,Facebook,Instagram) should be rich experience.(Look and feel). 
 3. Customer Content Publish
     (a). Publish should give user access to skip the undesired platform.
     (b). It should show proper error/warning,if content not able to publish over any platform.
     (c). Should give user a todo experience about how he/she can do the corrections and redo or republish those contents.
 4. Customer Content Analytics
-    (a). There should be easy to understand graphs/charts with self explanation.
+    (a). There should be easy to understand graphs/charts with self explanation. --->. {contentId} ==> either pull or push 
+5.Integration -- Social Media Platform -- (Linkedin/FB/Twitter/Others)
     
 V1 --->
 1. Customer onboarding -- 
