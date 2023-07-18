@@ -1,0 +1,11 @@
+Scrapping 
+RSS
+
+  ```
+    import feedparser
+    Feed = feedparser.parse('https://timesofindia.indiatimes.com/rssfeedstopstories.cms')
+    pointer = Feed.entries
+    for pp in pointer:
+        print (pp.title,end='\n')
+
+  ```
